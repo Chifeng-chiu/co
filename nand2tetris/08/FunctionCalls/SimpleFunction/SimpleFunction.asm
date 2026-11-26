@@ -1,5 +1,3 @@
-
-// ========== File: FunctionCalls/SimpleFunction/SimpleFunction.vm ==========
 // function SimpleFunction.test 2
 (SimpleFunction.test)
 @SP
@@ -95,26 +93,34 @@ D=M
 A=M
 M=D
 @ARG
-D=M+1
+D=M
 @SP
-M=D
+M=D+1
 @R13
-AM=M-1
+D=M
+@1
+A=D-A
 D=M
 @THAT
 M=D
 @R13
-AM=M-1
+D=M
+@2
+A=D-A
 D=M
 @THIS
 M=D
 @R13
-AM=M-1
+D=M
+@3
+A=D-A
 D=M
 @ARG
 M=D
 @R13
-AM=M-1
+D=M
+@4
+A=D-A
 D=M
 @LCL
 M=D

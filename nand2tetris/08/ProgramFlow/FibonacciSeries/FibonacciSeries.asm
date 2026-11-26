@@ -1,5 +1,3 @@
-
-// ========== File: ProgramFlow/FibonacciSeries/FibonacciSeries.vm ==========
 // push argument 1
 @1
 D=A
